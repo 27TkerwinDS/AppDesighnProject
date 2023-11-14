@@ -1,0 +1,52 @@
+How to use the app,
+
+Logging on their is the main hub, from this you can chose a series of games
+
+Pong
+Pong is a one person game where the goal is to keep the ball in the middle as long as possible by bouncing it off the paddles.
+
+inputs
+Start button- sets ball into motion
+Left button- moves paddles to the left of the screen
+Right button- moves paddles to the right of the screen
+Hub button- brings player to hub screen
+
+Car crash
+The goal of this game is to stop the sprite from reaching the other side of the screen by tapping it, the longer the game the faster the car the more you stop the car the higher your score, but beware of bombs.
+
+Inputs
+Hub button- sends screen back to hub.
+Start button- sends sprite to the end of screen at speed 1
+Taping sprite- resets sprites position, or blows you up if it is a bomb
+
+Quick tap
+
+A fun game where the player has a set amount of time to click the red button as fast as possible.
+
+Inputs
+Touch sprite-moves button and increases score
+Hub button- sends screen back to hub.
+ 
+Multiplayer home
+
+So far there is only one multiplayer game, but that I hope will change, the home page has a check connection stage, the connecting of the devices is similar throughout all multiplayer games so here is the run down.
+
+Connection process
+Client hit connect button, this searches for connection
+Surver hits list picker and choses client. 
+Wait for prompted
+Repeat until find prompt (usually works after 1 or 2 tries)
+
+Hangman
+
+You know it, you love it, the client has to enter a 4 to 6 letter word that is sent to the other player, as the player receives the word they get a prompt, then they guess the letters one at a time which appears in place until correct or has run out of guesses.
+
+Client input
+6 text box- enters a letter or _ 
+Send button- sends the content of the 6 labels
+
+Sever input
+1 text box- contains what the user wants to guess
+Send button- guesses what is in the text box
+6 labels- shows the correct guesses and the placements
+
